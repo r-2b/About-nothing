@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#fff">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,
                                  maximum-scale=1.0, user-scalable=no">
-  <title>Page not found</title>
+  <title>Page Not Found</title>
   <style>/* Copyright 2017 The Chromium Authors
  * Use of this source code is governed by a BSD-style license that can be
  * found in the LICENSE file. */
@@ -1478,7 +1478,29 @@ let showingDetails=false;let lastData=null;let dinoGameInitialized=false;functio
       `:""}
     </div>
     ${data.summary?x`
-    
+      <div id="sub-frame-error">
+        <!-- Show details when hovering over the icon, in case the details are
+             hidden because they're too large. -->
+        <div class="icon ${getSubFrameErrorIconCssClass(data)}"></div>
+        <div id="sub-frame-error-details" .innerHTML="${data.summary.msg}">
+        </div>
+      </div>
+    `:""}
+  `}Object.assign(window,{diagnoseErrors:diagnoseErrors,portalSignin:portalSignin,toggleHelpBox:toggleHelpBox,updateForDnsProbe:updateForDnsProbe,updateInitialInstruction:updateInitialInstruction});document.addEventListener("DOMContentLoaded",onDocumentLoad);</script>
+
+</head>
+<body class="neterror" style="font-family: 'Segoe UI', Tahoma, sans-serif; font-size: 75%">
+  <div id="content"><!---->
+    <div id="main-frame-error" class="interstitial-wrapper ">
+      <div id="main-content">
+        <div class="icon icon-generic"></div>
+        <div id="main-message">
+          <h1>
+            <span>This site can’t be reached</span>
+          </h1>
+          <!--?lit$148488913$-->
+            <p>The page cannot be found
+</p>
           
 
           <!--?lit$148488913$-->
@@ -1500,7 +1522,7 @@ let showingDetails=false;let lastData=null;let dinoGameInitialized=false;functio
       <div id="buttons" class="nav-wrapper suggested-left">
         <div id="control-buttons">
           <!--?lit$148488913$-->
-            <button id="reload-button" class="blue-button text-button" data-url="https://r-2b.github.io/About-nothing/">
+            <button id="reload-button" class="blue-button text-button" data-url="http://oajoiijfojasjfjaisfojasf.com/">
               <!--?lit$148488913$-->Reload
             </button>
           
@@ -1517,6 +1539,12 @@ let showingDetails=false;let lastData=null;let dinoGameInitialized=false;functio
   <!---->
     
     <!--?lit$108989990$-->
+      <div id="sub-frame-error">
+        <!-- Show details when hovering over the icon, in case the details are
+             hidden because they're too large. -->
+        <div class="icon "></div>
+        <div id="sub-frame-error-details"><strong>oajoiijfojasjfjaisfojasf.com</strong>’s <abbr id="dnsDefinition">DNS address</abbr> could not be found. Diagnosing the problem.</div>
+      </div>
     
   </div>
   <div id="offline-resources">
