@@ -1478,29 +1478,7 @@ let showingDetails=false;let lastData=null;let dinoGameInitialized=false;functio
       `:""}
     </div>
     ${data.summary?x`
-      <div id="sub-frame-error">
-        <!-- Show details when hovering over the icon, in case the details are
-             hidden because they're too large. -->
-        <div class="icon ${getSubFrameErrorIconCssClass(data)}"></div>
-        <div id="sub-frame-error-details" .innerHTML="${data.summary.msg}">
-        </div>
-      </div>
-    `:""}
-  `}Object.assign(window,{diagnoseErrors:diagnoseErrors,portalSignin:portalSignin,toggleHelpBox:toggleHelpBox,updateForDnsProbe:updateForDnsProbe,updateInitialInstruction:updateInitialInstruction});document.addEventListener("DOMContentLoaded",onDocumentLoad);</script>
-
-</head>
-<body class="neterror" style="font-family: 'Segoe UI', Tahoma, sans-serif; font-size: 75%">
-  <div id="content"><!---->
-    <div id="main-frame-error" class="interstitial-wrapper ">
-      <div id="main-content">
-        <div class="icon icon-generic"></div>
-        <div id="main-message">
-          <h1>
-            <span>This site can’t be reached</span>
-          </h1>
-          <!--?lit$148488913$-->
-            <p>The page cannot be found
-</p>
+    
           
 
           <!--?lit$148488913$-->
